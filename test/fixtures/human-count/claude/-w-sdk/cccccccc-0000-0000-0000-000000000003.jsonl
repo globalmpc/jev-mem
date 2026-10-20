@@ -1,0 +1,1 @@
+{"type":"user","uuid":"u1","timestamp":"2026-10-18T08:00:00.000Z","sessionId":"cccccccc-0000-0000-0000-000000000003","cwd":"/w/northwind-datasync","entrypoint":"sdk-cli","isSidechain":false,"userType":"external","message":{"role":"user","content":"Read SKILL.md and follow it"}}

@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" font-family="-apple-system, 'Segoe UI', sans-serif">
+  <rect width="1600" height="900" fill="#0f1115"/>
+
+  <text x="800" y="78" text-anchor="middle" fill="#f2f3f5" font-size="50" font-weight="800">Work in A. Ask in B.</text>
+  <text x="800" y="124" text-anchor="middle" fill="#9aa0aa" font-size="27">Type less. jev-mem remember.</text>
+
+  <!-- AS-IS terminal -->
+  <rect x="60" y="165" width="700" height="600" rx="16" fill="#1a1d23" stroke="#4a2a2a" stroke-width="2"/>
+  <rect x="60" y="165" width="700" height="48" rx="16" fill="#252931"/>
+  <rect x="60" y="195" width="700" height="18" fill="#252931"/>
+  <circle cx="92" cy="189" r="8" fill="#ff5f57"/><circle cx="118" cy="189" r="8" fill="#febc2e"/><circle cx="144" cy="189" r="8" fill="#28c840"/>
+  <text x="410" y="197" text-anchor="middle" fill="#ff7b72" font-size="22" font-weight="800">AS-IS · project B</text>
+
+  <g font-family="Menlo, 'SF Mono', monospace" font-size="21" fill="#e6e6e6">
+    <text x="90" y="260" fill="#ff7b72">&gt;</text>
+    <text x="115" y="260">In project A (jev-mem), last</text>
+    <text x="115" y="292">session I built memory hooks.</text>
+    <text x="115" y="324">Code is at</text>
+    <text x="115" y="356">~/work/jev-mem.</text>
+    <text x="115" y="388">Repo is github.com/</text>
+    <text x="115" y="420">globalmpc/jev-mem. Branch main.</text>
+    <text x="115" y="452">Check git log and remote.</text>
+    <text x="115" y="484">Did I commit and push?</text>
+    <text x="115" y="516">Compare local vs origin.</text>
+    <text x="90" y="580" fill="#8b949e">⏺ Yes. Pushed. 90d593e.</text>
+  </g>
+
+  <rect x="90" y="630" width="640" height="105" rx="12" fill="#2d1d1f"/>
+  <text x="410" y="680" text-anchor="middle" fill="#ff7b72" font-size="44" font-weight="800">210 chars</text>
+  <text x="410" y="718" text-anchor="middle" fill="#c9a0a0" font-size="22">You say path. You say repo. Every time.</text>
+
+  <!-- arrow -->
+  <path d="M775 465 L825 465" stroke="#5b6270" stroke-width="6"/>
+  <path d="M820 447 L844 465 L820 483 Z" fill="#5b6270"/>
+
+  <!-- TO-BE terminal -->
+  <rect x="840" y="165" width="700" height="600" rx="16" fill="#1a1d23" stroke="#1f4a2a" stroke-width="2"/>
+  <rect x="840" y="165" width="700" height="48" rx="16" fill="#252931"/>
+  <rect x="840" y="195" width="700" height="18" fill="#252931"/>
+  <circle cx="872" cy="189" r="8" fill="#ff5f57"/><circle cx="898" cy="189" r="8" fill="#febc2e"/><circle cx="924" cy="189" r="8" fill="#28c840"/>
+  <text x="1190" y="197" text-anchor="middle" fill="#56d364" font-size="22" font-weight="800">TO-BE · project B + jev-mem</text>
+
+  <g font-family="Menlo, 'SF Mono', monospace" font-size="21" fill="#e6e6e6">
+    <text x="870" y="260" fill="#56d364">&gt;</text>
+    <text x="895" y="260" font-size="26" font-weight="700">jev mem pushed?</text>
+    <text x="870" y="330" fill="#56d364">[jev-mem] Found 5 notes. Added 1.</text>
+    <text x="870" y="362" fill="#8b949e">  ↳ A: ~/work/jev-mem</text>
+    <text x="870" y="394" fill="#8b949e">  ↳ repo: globalmpc/jev-mem</text>
+    <text x="870" y="580" fill="#8b949e">⏺ Yes. Pushed. 90d593e.</text>
+  </g>
+
+  <rect x="870" y="630" width="640" height="105" rx="12" fill="#14261b"/>
+  <text x="1190" y="680" text-anchor="middle" fill="#56d364" font-size="44" font-weight="800">15 chars</text>
+  <text x="1190" y="718" text-anchor="middle" fill="#9fd0a8" font-size="22">jev-mem bring A. You just ask.</text>
+
+  <!-- bottom stat -->
+  <text x="800" y="830" text-anchor="middle" fill="#f2f3f5" font-size="40" font-weight="800">14× less typing. Same answer.</text>
+  <text x="800" y="875" text-anchor="middle" fill="#6e7681" font-size="20">jev-mem · github.com/globalmpc/jev-mem</text>
+</svg>

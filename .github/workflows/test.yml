@@ -1,0 +1,26 @@
+name: Test
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        # Linux and macOS take different worker-ownership paths (/proc vs lsof).
+        os: [ubuntu-latest, macos-latest]
+        # 20.12 is the engines floor.
+        node-version: ["20.12", "24"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node-version }}
+      - run: npm test

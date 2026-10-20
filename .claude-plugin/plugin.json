@@ -1,0 +1,10 @@
+{
+  "name": "jev-mem",
+  "version": "0.1.0",
+  "description": "Inject only the claude-mem records JEV judges relevant to the prompt. Top-1 by default, nothing when nothing fits.",
+  "author": { "name": "jev-mem contributors" },
+  "homepage": "https://github.com/globalmpc/jev-mem",
+  "repository": "https://github.com/globalmpc/jev-mem",
+  "license": "MIT",
+  "keywords": ["claude-mem", "jev", "jev-router", "memory", "context", "typesafe"]
+}

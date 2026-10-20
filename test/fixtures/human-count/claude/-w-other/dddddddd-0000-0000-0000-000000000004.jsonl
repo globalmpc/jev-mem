@@ -1,0 +1,1 @@
+{"type":"user","uuid":"u1","timestamp":"2026-10-18T09:00:00.000Z","sessionId":"dddddddd-0000-0000-0000-000000000004","cwd":"/w/cooking","entrypoint":"cli","isSidechain":false,"userType":"external","message":{"role":"user","content":"how do I bake bread"},"origin":{"kind":"human"}}

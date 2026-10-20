@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" font-family="-apple-system, 'Segoe UI', sans-serif">
+  <rect width="1600" height="900" fill="#0f1115"/>
+
+  <text x="800" y="78" text-anchor="middle" fill="#f2f3f5" font-size="50" font-weight="800">Start session. Tokens gone.</text>
+  <text x="800" y="124" text-anchor="middle" fill="#9aa0aa" font-size="27">Old memory load all. jev-mem pick few.</text>
+
+  <!-- AS-IS -->
+  <rect x="60" y="165" width="700" height="600" rx="16" fill="#1a1d23" stroke="#4a2a2a" stroke-width="2"/>
+  <rect x="60" y="165" width="700" height="48" rx="16" fill="#252931"/>
+  <rect x="60" y="195" width="700" height="18" fill="#252931"/>
+  <circle cx="92" cy="189" r="8" fill="#ff5f57"/><circle cx="118" cy="189" r="8" fill="#febc2e"/><circle cx="144" cy="189" r="8" fill="#28c840"/>
+  <text x="410" y="197" text-anchor="middle" fill="#ff7b72" font-size="22" font-weight="800">AS-IS · claude-mem</text>
+
+  <g font-family="Menlo, 'SF Mono', monospace" font-size="21" fill="#e6e6e6">
+    <text x="90" y="262" fill="#8b949e">$ claude</text>
+    <text x="90" y="300" fill="#ff7b72">⏺ Load memory…  all of it</text>
+    <text x="90" y="334" fill="#8b949e">  ↳ 312 old notes</text>
+    <text x="90" y="368" fill="#8b949e">  ↳ most not about this task</text>
+    <text x="90" y="430" fill="#ff7b72">&gt;</text>
+    <text x="115" y="430" fill="#6e7681">(you not type yet)</text>
+  </g>
+
+  <!-- AS-IS status bar -->
+  <rect x="90" y="470" width="640" height="54" rx="8" fill="#111317" stroke="#30363d"/>
+  <text x="110" y="505" font-family="Menlo, 'SF Mono', monospace" font-size="19" fill="#ff7b72">● 50k tokens · 25% context used</text>
+  <rect x="90" y="540" width="640" height="18" rx="9" fill="#2a2e36"/>
+  <rect x="90" y="540" width="160" height="18" rx="9" fill="#ff7b72"/>
+
+  <rect x="90" y="630" width="640" height="105" rx="12" fill="#2d1d1f"/>
+  <text x="410" y="680" text-anchor="middle" fill="#ff7b72" font-size="44" font-weight="800">30k → 50k tokens</text>
+  <text x="410" y="718" text-anchor="middle" fill="#c9a0a0" font-size="22">Load all. Window full. Think worse.</text>
+
+  <!-- arrow -->
+  <path d="M775 465 L825 465" stroke="#5b6270" stroke-width="6"/>
+  <path d="M820 447 L844 465 L820 483 Z" fill="#5b6270"/>
+
+  <!-- TO-BE -->
+  <rect x="840" y="165" width="700" height="600" rx="16" fill="#1a1d23" stroke="#1f4a2a" stroke-width="2"/>
+  <rect x="840" y="165" width="700" height="48" rx="16" fill="#252931"/>
+  <rect x="840" y="195" width="700" height="18" fill="#252931"/>
+  <circle cx="872" cy="189" r="8" fill="#ff5f57"/><circle cx="898" cy="189" r="8" fill="#febc2e"/><circle cx="924" cy="189" r="8" fill="#28c840"/>
+  <text x="1190" y="197" text-anchor="middle" fill="#56d364" font-size="22" font-weight="800">TO-BE · jev-mem</text>
+
+  <g font-family="Menlo, 'SF Mono', monospace" font-size="21" fill="#e6e6e6">
+    <text x="870" y="262" fill="#8b949e">$ claude</text>
+    <text x="870" y="300" fill="#56d364">&gt;</text>
+    <text x="895" y="300">jev mem pushed?</text>
+    <text x="870" y="350" fill="#56d364">[jev-mem] Found 5 notes. Added 1.</text>
+    <text x="870" y="384" fill="#8b949e">  ↳ JEV pick only what fit</text>
+  </g>
+
+  <!-- TO-BE status bar -->
+  <rect x="870" y="470" width="640" height="54" rx="8" fill="#111317" stroke="#30363d"/>
+  <text x="890" y="505" font-family="Menlo, 'SF Mono', monospace" font-size="19" fill="#56d364">● 2k tokens · 1% context used</text>
+  <rect x="870" y="540" width="640" height="18" rx="9" fill="#2a2e36"/>
+  <rect x="870" y="540" width="12" height="18" rx="6" fill="#56d364"/>
+
+  <rect x="870" y="630" width="640" height="105" rx="12" fill="#14261b"/>
+  <text x="1190" y="680" text-anchor="middle" fill="#56d364" font-size="44" font-weight="800">~2k tokens</text>
+  <text x="1190" y="718" text-anchor="middle" fill="#9fd0a8" font-size="22">Pick few. Window free. Think better.</text>
+
+  <text x="800" y="830" text-anchor="middle" fill="#f2f3f5" font-size="40" font-weight="800">Less tokens. More room to think.</text>
+  <text x="800" y="875" text-anchor="middle" fill="#6e7681" font-size="20">jev-mem · github.com/globalmpc/jev-mem · numbers from author's setup, 200K window</text>
+</svg>

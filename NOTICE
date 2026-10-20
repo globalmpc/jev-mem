@@ -1,0 +1,14 @@
+jev-mem
+Copyright 2026 jev-mem contributors. Licensed under the MIT License.
+
+This project contains no code from claude-mem. It calls the HTTP API of a locally
+running claude-mem worker.
+
+claude-mem: https://github.com/thedotmack/claude-mem
+Copyright 2026 Alex Newman. Licensed under the Apache License, Version 2.0.
+
+JEV is provided by TypeSafe (https://docs.typesafe.ai).
+
+This project is not affiliated with or endorsed by Anthropic, the claude-mem
+project, or TypeSafe. "Claude" is a trademark of Anthropic, PBC. Product names
+are used only to identify compatibility.

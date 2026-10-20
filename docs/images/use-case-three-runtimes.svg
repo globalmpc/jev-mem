@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" font-family="-apple-system, 'Segoe UI', sans-serif">
+  <rect width="1600" height="900" fill="#0f1115"/>
+
+  <text x="800" y="78" text-anchor="middle" fill="#f2f3f5" font-size="50" font-weight="800">One memory. Three tools.</text>
+  <text x="800" y="124" text-anchor="middle" fill="#9aa0aa" font-size="27">claude-mem: Claude only. jev-mem: Claude, Codex, Antigravity.</text>
+
+  <!-- AS-IS strip -->
+  <rect x="60" y="160" width="1480" height="70" rx="14" fill="#2d1d1f"/>
+  <text x="90" y="205" fill="#ff7b72" font-size="26" font-weight="800">AS-IS · claude-mem</text>
+  <text x="420" y="205" fill="#e6e6e6" font-size="24">Claude ✅</text>
+  <text x="620" y="205" fill="#e6e6e6" font-size="24">Codex ❌</text>
+  <text x="820" y="205" fill="#e6e6e6" font-size="24">Antigravity ❌</text>
+  <text x="1080" y="205" fill="#c9a0a0" font-size="22">Switch tool. Memory gone.</text>
+
+  <text x="90" y="285" fill="#56d364" font-size="26" font-weight="800">TO-BE · jev-mem — same memory, every tool</text>
+
+  <!-- 3 terminals -->
+  <g font-family="Menlo, 'SF Mono', monospace" font-size="19" fill="#e6e6e6">
+    <!-- Claude -->
+    <rect x="60" y="310" width="470" height="440" rx="16" fill="#1a1d23" stroke="#1f4a2a" stroke-width="2"/>
+    <rect x="60" y="310" width="470" height="46" rx="16" fill="#252931"/><rect x="60" y="338" width="470" height="18" fill="#252931"/>
+    <circle cx="90" cy="333" r="7" fill="#ff5f57"/><circle cx="113" cy="333" r="7" fill="#febc2e"/><circle cx="136" cy="333" r="7" fill="#28c840"/>
+    <text x="295" y="340" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="21" font-weight="800" fill="#d2a8ff">Claude</text>
+    <text x="85" y="405" fill="#8b949e">$ claude</text>
+    <text x="85" y="445" fill="#56d364">&gt;</text><text x="108" y="445">jev mem pushed?</text>
+    <text x="85" y="495" fill="#56d364">[jev-mem] Found 5.</text>
+    <text x="85" y="525" fill="#56d364">Added 1.</text>
+    <text x="85" y="600" fill="#8b949e">⏺ Yes. Pushed. 90d593e.</text>
+    <text x="85" y="715" fill="#56d364" font-size="18">hook: SessionStart / Prompt</text>
+
+    <!-- Codex -->
+    <rect x="565" y="310" width="470" height="440" rx="16" fill="#1a1d23" stroke="#1f4a2a" stroke-width="2"/>
+    <rect x="565" y="310" width="470" height="46" rx="16" fill="#252931"/><rect x="565" y="338" width="470" height="18" fill="#252931"/>
+    <circle cx="595" cy="333" r="7" fill="#ff5f57"/><circle cx="618" cy="333" r="7" fill="#febc2e"/><circle cx="641" cy="333" r="7" fill="#28c840"/>
+    <text x="800" y="340" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="21" font-weight="800" fill="#79c0ff">Codex</text>
+    <text x="590" y="405" fill="#8b949e">$ codex</text>
+    <text x="590" y="445" fill="#56d364">▌</text><text x="613" y="445">jev mem pushed?</text>
+    <text x="590" y="495" fill="#56d364">[jev-mem] Found 5.</text>
+    <text x="590" y="525" fill="#56d364">Added 1.</text>
+    <text x="590" y="600" fill="#8b949e">• Yes. Pushed. 90d593e.</text>
+    <text x="590" y="715" fill="#56d364" font-size="18">adapter: codex</text>
+
+    <!-- Antigravity -->
+    <rect x="1070" y="310" width="470" height="440" rx="16" fill="#1a1d23" stroke="#1f4a2a" stroke-width="2"/>
+    <rect x="1070" y="310" width="470" height="46" rx="16" fill="#252931"/><rect x="1070" y="338" width="470" height="18" fill="#252931"/>
+    <circle cx="1100" cy="333" r="7" fill="#ff5f57"/><circle cx="1123" cy="333" r="7" fill="#febc2e"/><circle cx="1146" cy="333" r="7" fill="#28c840"/>
+    <text x="1305" y="340" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="21" font-weight="800" fill="#ffa657">Antigravity</text>
+    <text x="1095" y="405" fill="#8b949e">$ antigravity</text>
+    <text x="1095" y="445" fill="#56d364">&gt;</text><text x="1118" y="445">jev mem pushed?</text>
+    <text x="1095" y="495" fill="#56d364">[jev-mem] Found 5.</text>
+    <text x="1095" y="525" fill="#56d364">Added 1.</text>
+    <text x="1095" y="600" fill="#8b949e">✦ Yes. Pushed. 90d593e.</text>
+    <text x="1095" y="715" fill="#56d364" font-size="18">adapter: antigravity</text>
+  </g>
+
+  <text x="800" y="825" text-anchor="middle" fill="#f2f3f5" font-size="40" font-weight="800">Change tool. Keep memory.</text>
+  <text x="800" y="872" text-anchor="middle" fill="#6e7681" font-size="20">jev-mem · github.com/globalmpc/jev-mem</text>
+</svg>

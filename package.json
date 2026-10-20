@@ -1,0 +1,13 @@
+{
+  "name": "jev-mem",
+  "version": "0.1.0",
+  "description": "JEV picks which memory records reach the prompt, across agent runtimes",
+  "type": "module",
+  "bin": { "jev-mem": "bin/jev-mem.mjs" },
+  "scripts": { "test": "node --test" },
+  "repository": { "type": "git", "url": "git+https://github.com/globalmpc/jev-mem.git" },
+  "homepage": "https://github.com/globalmpc/jev-mem#readme",
+  "engines": { "node": ">=20.12" },
+  "license": "MIT",
+  "keywords": ["claude-mem", "jev", "jev-router", "claude-code", "memory"]
+}

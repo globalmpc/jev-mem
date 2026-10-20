@@ -1,0 +1,12 @@
+{
+  "name": "jev-mem",
+  "owner": { "name": "jev-mem contributors" },
+  "description": "jev-mem: JEV-selected claude-mem records for each prompt",
+  "plugins": [
+    {
+      "name": "jev-mem",
+      "source": "./",
+      "description": "JEV picks which claude-mem records reach each prompt"
+    }
+  ]
+}
