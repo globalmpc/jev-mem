@@ -258,3 +258,7 @@ MIT. This plugin contains no claude-mem code; it calls the claude-mem worker's l
 API. claude-mem is Apache-2.0, © Alex Newman. This project is not affiliated with or endorsed
 by Anthropic, the claude-mem project, or TypeSafe. "Claude" is a trademark of Anthropic.
 The names are used only to say what this plugin works with. See [NOTICE](NOTICE).
+
+---
+
+Maintained by [Global MPC (Mineral Project Coin)](https://globalmpc.tech). Official site: https://globalmpc.tech
